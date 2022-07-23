@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Javajs.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>calculadora</title>
+</head>
+
+<body>
+
+    
+    <ul class="nav nav-pills nav-fill">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Regresar</a>
+        </li>
+     
+      </ul>
+    <!--  <label>Calculadora1</label><br>
+
+    <label>ingrese un valor 1</label>
+    <input id="valor1" type="number">
+    <label>ingrese un valor 2</label>
+    <input id="valor2" type="number">
+    <button type="button" onclick="operaciones('+')">+</button>
+    <button type="button" onclick="operaciones('-')">-</button>
+    <button type="button" onclick="operaciones('/')">/</button>
+    <button type="button" onclick="operaciones('*')">*</button>
+    <p>El resultado es :</p>
+    <p id="resultado"></p>
+
+     <label>Calculadora2</label><br>
+    <button type="button" id="1" onclick="getvalue(1)">1</button>
+    <button type="button" id="2" onclick="getvalue(2)">2</button>
+    <button type="button" id="3" onclick="getvalue(3)">3</button><br>
+    <button type="button" id="4" onclick="getvalue(4)">4</button>
+    <button type="button" id="5" onclick="getvalue(5)">5</button>
+    <button type="button" id="6" onclick="getvalue(6)">6</button><br>
+    <button type="button" id="7" onclick="getvalue(7)">7</button>
+    <button type="button" id="8" onclick="getvalue(8)">8</button>
+    <button type="button" id="9" onclick="getvalue(9)">9</button><br>
+
+    <button type="button" onclick="suma()">+</button>
+    <button type="button" onclick="resta()">-</button>
+    <button type="button" onclick="division()">/</button>
+    <button type="button" onclick="multiplicacion('')">*</button>
+    <p>El resultado es :</p>
+    <p id="resultado2"></p> -->
+
+
+    <form>
+        <label>Convertir Pesos</label><br>
+
+        <div class="form-row">
+            <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Valor</label>
+            <div class="col-md-2">
+                <input type="text" class="form-control" placeholder="" id="valor">
+            </div>
+            <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Seleccione Moneda</label>
+            <div class="col-md-2">
+
+                <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref" onchange="tasaDeCambio()">
+                    <option selected>$</option>
+                    <option id="dolar" value="dolar">Dolar</option>
+                    <option id="euro" value="euro">Euro</option>
+
+                </select>
+            </div>
+
+            <input class="my-1 mr-2 col-md-2" type="text" id="resultado">
+
+
+
+
+
+
+    </form>
+
+</body>
+
+</html>
